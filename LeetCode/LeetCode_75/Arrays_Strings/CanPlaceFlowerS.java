@@ -1,8 +1,12 @@
 package Logic_Problems.LeetCode.LeetCode_75.Arrays_Strings;
 
 public class CanPlaceFlowerS {
+    // Objetivos: Descobrir se é possível plantar um número n de novas flores em um canteiro
+    // (representado por um array de 0s para vazio e 1s para ocupado)
+    // que duas flores fiquem adjacentes (uma do lado da outra).
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int daParaPlantar = 0;
+
 
         for (int i = 0; i < flowerbed.length; i++) {
 

@@ -3,7 +3,7 @@ package Logic_Problems.LeetCode.LeetCode_75.Arrays_Strings;
 public class MergeAlternaly {
     /*
     OBJETIVO: Pegar duas string e criar uma nova a partir dos caracteres das outras string
-              A nova string vai receber caracteres de forma alternada, até ser preenchida por completo
+              A nova string vai receber caracteres de forma ALTERNADA, até ser preenchida por completo
     * */
 
     public String mergeAlternately(String word1, String word2) {
