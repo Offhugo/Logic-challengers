@@ -4,7 +4,7 @@ public class MaximumAverage {
     public double findMaxAverage(int[] nums, int k) {
         int somaAtual = 0;
 
-        // Calcula a soma da PRIMEIRA janela (os primeiros 'k' elementos)
+        // Calcula a soma da PRIMEIRA janela "cria" ela
         for (int i = 0; i < k; i++) {
             somaAtual += nums[i];
         }
