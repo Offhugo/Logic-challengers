@@ -17,6 +17,6 @@ public class TwoSum {
 
                 hashMap.put(nums[i], i);
             }
-            return null;
+            return new int[]{};
         }
 }
